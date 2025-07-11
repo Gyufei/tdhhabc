@@ -4145,11 +4145,12 @@ h2 {
   .footer__newsletter-wrapper {
     flex-flow: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     display: flex;
   }
 
   .heading-15 {
+    text-align: center;
     margin-top: 4vw;
     margin-bottom: 3.125vw;
   }
@@ -4166,7 +4167,10 @@ h2 {
   }
 
   .text-field {
+    border-bottom-style: solid;
+    border-bottom-color: #f5f5f5;
     width: 100%;
+    margin-bottom: 0;
   }
 
   .text-field-2 {
@@ -4176,7 +4180,10 @@ h2 {
   }
 
   .submit-button {
-    border-left-style: none;
+    border: 1px solid #f5f5f5;
+    position: absolute;
+    top: 18px;
+    right: 0;
   }
 
   .sitemap {
@@ -4243,6 +4250,10 @@ h2 {
   .div-block-9 {
     grid-column-gap: 8vw;
     grid-row-gap: 8vw;
+  }
+
+  .div-block-9.pc {
+    display: none;
   }
 
   .link-3:hover, .link-4:hover {
@@ -4413,11 +4424,24 @@ h2 {
   }
 
   .footer__newsletter-wrapper {
-    align-items: flex-start;
+    align-items: center;
   }
 
-  .heading-15 {
-    text-align: left;
+  .heading-15, .text-block-27 {
+    text-align: center;
+  }
+
+  .text-field {
+    border-bottom-style: solid;
+    border-bottom-color: #f5f5f5;
+    margin-bottom: 0;
+  }
+
+  .submit-button {
+    border: 1px solid #f5f5f5;
+    position: absolute;
+    top: 18px;
+    right: 0;
   }
 
   .form-block {
@@ -4468,8 +4492,18 @@ h2 {
     line-height: 17px;
   }
 
-  .link-2, .link-3, .link-4 {
+  .link-2 {
     font-size: 14px;
+    line-height: 120%;
+  }
+
+  .div-block-9.pc {
+    display: none;
+  }
+
+  .link-3, .link-4 {
+    font-size: 14px;
+    line-height: 120%;
   }
 
   .cf-faq-main-wrapper.horizontal {
