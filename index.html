@@ -150,9 +150,8 @@
                         }
                       }
 
-                      const dateStamp = new Date().getTime()
                       // 使用示例
-                      const API_URL = `https://cdn.tadle.com/home_page/page_data.json?v=${dateStamp}`; // 替换为实际接口地址
+                      const API_URL = `https://cdn.tadle.com/home_page/page_data.json?v=${Date.now()}`; // 替换为实际接口地址
                       fetchDataFromAPI1(API_URL)
                       function observeForLoop(className, key) {
                         const element = document.querySelector(`.${className}`);
