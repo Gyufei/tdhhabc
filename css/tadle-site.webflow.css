@@ -2027,7 +2027,6 @@ h2 {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    min-width: 1440px;
     min-height: 95vh;
     margin-left: auto;
     margin-right: auto;
