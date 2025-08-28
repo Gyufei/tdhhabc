@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/en",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/en/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
