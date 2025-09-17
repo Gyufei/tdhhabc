@@ -249,6 +249,7 @@ h2 {
   position: absolute;
   top: 0;
   left: 0;
+  /* background-color: rgba(50, 52, 64, 0.8) */
 }
 
 .div-block.home-page__background {
