@@ -304,7 +304,7 @@ h2 {
 .body-medium {
   color: #f5f5f5;
   letter-spacing: 0.02em;
-  font-size: 2vw;
+  font-size: 3.2vw;
   line-height: 2.1vw;
 }
 
@@ -2073,7 +2073,7 @@ h2 {
     pointer-events: none;
     color: #f5f5f5;
     text-align: center;
-    font-size: 20px;
+    font-size: 32px;
     line-height: 140%;
   }
 
@@ -2984,14 +2984,14 @@ h2 {
   }
 
   .body-medium {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 32px;
+    line-height: 36px;
   }
 
   .logo-con {
     margin-bottom: 5vw;
   }
-  
+
   .cta-l-t {
     padding: 14px 32px;
   }
@@ -3714,8 +3714,8 @@ h2 {
   }
 
   .body-medium {
-    font-size: 4.375vw;
-    line-height: 6.875vw;
+    font-size: 6vw;
+    line-height: 7.875vw;
   }
 
   .logo-con {
@@ -3740,7 +3740,7 @@ h2 {
   .image-3 {
     width: 32px;
   }
-  
+
   .cta-l-t {
     padding: 12px 24px;
     border-radius: 12px;
@@ -4405,8 +4405,8 @@ h2 {
   }
 
   .body-medium {
-    font-size: 4.375vw;
-    line-height: 6.875vw;
+    font-size: 6vw;
+    line-height: 8.875vw;
   }
 
   .logo-con {
@@ -4616,40 +4616,4 @@ h2 {
   .image-14 {
     width: 80px;
   }
-}
-
-@font-face {
-  font-family: 'Aeonik';
-  src: url('../fonts/Aeonik-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Aeonik';
-  src: url('../fonts/Aeonik-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Aeonik';
-  src: url('../fonts/Aeonik-Black.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Aeonik';
-  src: url('../fonts/Aeonik-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Aeonik';
-  src: url('../fonts/Aeonik-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
 }
